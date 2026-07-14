@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do You Still Love Me?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="site-shell">
+    <div class="floating-hearts" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <section class="question-screen is-active" id="questionScreen" aria-labelledby="mainQuestion">
+      <div class="cloud cloud-one" aria-hidden="true"></div>
+      <div class="cloud cloud-two" aria-hidden="true"></div>
+
+      <div class="bear-stack" aria-hidden="true">
+        <div class="bear bear-polar">
+          <span class="ear left"></span>
+          <span class="ear right"></span>
+          <span class="face">
+            <i></i><i></i><b></b>
+          </span>
+        </div>
+        <div class="bear bear-panda">
+          <span class="ear left"></span>
+          <span class="ear right"></span>
+          <span class="face">
+            <em></em><em></em><i></i><i></i><b></b>
+          </span>
+        </div>
+        <div class="bear bear-brown">
+          <span class="ear left"></span>
+          <span class="ear right"></span>
+          <span class="face">
+            <i></i><i></i><b></b>
+          </span>
+        </div>
+      </div>
+
+      <div class="love-card">
+        <p class="eyebrow">for my favorite person</p>
+        <h1 id="mainQuestion">Do you still love me?</h1>
+        <p class="soft-note">Answer carefully. The tiny bears are watching with very hopeful hearts.</p>
+
+        <div class="button-zone" id="buttonZone">
+          <button class="answer-button yes-button" id="yesButton" type="button">Yes</button>
+          <button class="answer-button no-button" id="noButton" type="button">No</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="message-screen" id="messageScreen" aria-labelledby="messageTitle">
+      <div class="message-panel">
+        <div class="mini-bears" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <p class="eyebrow">you chose yes</p>
+        <h2 id="messageTitle">My heart knew it.</h2>
+        <div class="message-copy">
+          <p>When I ask, "Do you still love me?" it is not because I want to doubt you. It is because my heart is soft around you, and sometimes it wants to hear the sweetest truth from the person who matters most.</p>
+          <p>I love the way you make ordinary days feel warmer. I love the little moments, the quiet care, the jokes, the comfort, and the feeling that even a simple message from you can make my whole day gentler.</p>
+          <p>If your answer is yes, then please know this: I still choose you too. I choose you in the happy moments, in the quiet ones, in the days when we are silly, and in the days when we need patience. I choose your smile, your heart, your presence, and the version of me that feels safe being loved by you.</p>
+          <p>Thank you for staying in my heart. Thank you for making love feel cute, playful, emotional, and real. I hope this little page reminds you that you are deeply loved, missed, treasured, and kept close in every tiny corner of my heart.</p>
+          <p class="promise">So yes, my love, I still love you. Always a little more than yesterday.</p>
+        </div>
+        <button class="answer-button back-button" id="backButton" type="button">Back to the question</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
